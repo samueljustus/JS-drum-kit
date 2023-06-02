@@ -3,8 +3,8 @@
 }
 
 body {
-    /* background-image: url(img/background.jpg);
-    background-repeat: no-repeat; */
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
     min-height: 600px;
     display: flex;
     flex-direction: row;
@@ -32,6 +32,7 @@ body {
     background: rgb(0,0,0,0.6);
     text-shadow: 0 0 6px black;
     cursor: pointer;
+    transition: all 0.08s; 
 }
 
 kbd {
@@ -44,5 +45,13 @@ span {
     font-size: .7rem;
     font-weight: 700;
     color: #ffc600;
+}
+
+
+.active {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+
 }
 
